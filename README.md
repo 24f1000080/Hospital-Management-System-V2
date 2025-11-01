@@ -1,35 +1,43 @@
-# 🏥 Hospital Management System (MAD 2 Project)
+# 🏥 Hospital Management System V2
 
-This project is a **Hospital Management System** developed as part of the **Mobile Application Development – 2 (MAD 2)** course.  
-It is an enhanced Android-based solution for managing hospital operations such as patient management, doctor scheduling, and appointment tracking.
+This project is developed as part of the **Modern Application Development II (MAD-II)** course under IIT Madras BS Degree.  
+It is a full-stack web application designed to manage hospital operations — from patient registration and doctor scheduling to appointment and treatment management.
 
 ---
 
 ## 🚀 Project Overview
-The system digitizes hospital workflows and ensures smooth coordination among patients, doctors, and administrators.  
-It includes real-time data handling, secure user authentication, and an improved user experience.
+The **Hospital Management System (HMS-V2)** simplifies hospital workflows by providing role-based access for Admins, Doctors, and Patients.  
+The app enables smooth appointment booking, treatment tracking, and medical record management — all built using Flask, SQLite, and VueJS.
 
 ---
 
-## 💡 Features
-- 🔐 User Authentication (Login/Signup)
-- 🧑‍⚕️ Doctor Management (Profile, Specialization, Availability)
-- 🧾 Appointment Booking and Status Tracking
-- 💊 Patient Medical Records Storage
-- 🗂️ Admin Dashboard for CRUD operations
-- 💬 Notifications for updates
-- 🌐 Firebase / SQLite Integration
-- 🎨 Material UI with responsive layouts
+## 🧩 Features (Core Milestones)
+### 🔹 Admin
+- Dashboard with total doctors, patients, and appointments.
+- Add, update, or remove doctors and patients.
+- Manage appointments and monitor system activity.
+
+### 🔹 Doctor
+- Dashboard with upcoming appointments.
+- Manage patient diagnosis, prescriptions, and medical notes.
+- Update availability and view patient medical history.
+
+### 🔹 Patient
+- Register, login, and update profile.
+- Search doctors by specialization.
+- Book, reschedule, or cancel appointments.
+- View past treatments and prescriptions.
 
 ---
 
-## 🛠️ Tech Stack
+## ⚙️ Technical Stack
 | Component | Technology |
 |------------|-------------|
-| Frontend | Java, XML |
-| Backend | Firebase Realtime Database / SQLite |
-| IDE | Android Studio |
-| Authentication | Firebase Auth |
-| UI Framework | Android Material Components |
+| Backend | Flask (Python) |
+| Frontend | Vue.js / HTML / CSS / JavaScript |
+| Database | SQLite |
+| Task Queue | Celery + Redis |
+| Authentication | JWT / Flask-Security |
+| Deployment | Localhost / PythonAnywhere (optional) |
 
-
+---
