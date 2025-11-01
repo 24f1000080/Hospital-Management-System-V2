@@ -1,10 +1,18 @@
-__pycache__/
-*.pyc
-venv/
-.env
-instance/
-*.db
-node_modules/
-dist/
-*.sqlite3
-redis.rdb
+# Ignore build files
+/build/
+*/build/
+*.apk
+*.ap_
+
+# Ignore IDE settings
+.vscode/
+.idea/
+*.iml
+
+# Ignore Gradle files
+.gradle/
+local.properties
+
+# Ignore system files
+.DS_Store
+Thumbs.db
