@@ -32,9 +32,4 @@ It includes real-time data handling, secure user authentication, and an improved
 | Authentication | Firebase Auth |
 | UI Framework | Android Material Components |
 
----
 
-## ⚙️ Installation Steps
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/Hospital-Management-System-MAD2.git
